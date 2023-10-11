@@ -1,0 +1,53 @@
+
+
+/* Estilo para el input de username */
+.txt-username {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+
+  
+  
+  /* Estilo para el contenedor de mensajes */
+  .div-chat {
+    max-height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+  }
+  
+  /* Estilo para los mensajes individuales */
+  .message {
+    margin: 5px 0;
+  }
+  
+  /* Estilo para el botón de enviar */
+  .send-button {
+    background-color: #1464b9;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  /* Estilo para el icono de emoji */
+  .emoji-icon {
+    cursor: pointer;
+  }
+  
+  /* Estilo para el título y descripción */
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .description {
+    font-size: 14px;
+    color: #555;
+  }
+  

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import io from 'socket.io-client';
+import './ChatClient.css'
 
 
 const socket = io('http://localhost:4000');
@@ -52,6 +53,9 @@ export const ChatClient = () => {
 
   return (
     <>
+
+      
+      <p>whats your name?</p>
       <input onChange={event => setUserName(event.target.value)} className='txt-username' type="text" placeholder='username' />
 
       <div className='div-chat'>
@@ -61,7 +65,7 @@ export const ChatClient = () => {
         }
       </div>              
     <form onSubmit={handleSubmit} className="form">
-      <span className="title">Chat-io</span>
+      <span className="title">###</span>
       <p className="description">Type your message.</p>
       <div className='div-type-chat'>
         <img
@@ -76,7 +80,7 @@ export const ChatClient = () => {
           type="text" name="text" id="chat-message"
           className="input-style" 
         />
-        <button type="submit">Send</button>
+        <button className='send-button' type="submit">Send</button>
       </div>
     </form>    
     </>
