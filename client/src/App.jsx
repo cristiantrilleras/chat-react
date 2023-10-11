@@ -1,17 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import { ChatClient } from './components/ChatClient/ChatClient'
+import { ChatClient } from './components/chatClient/ChatClient';
 
 
-function App() {
-  
+function App() {  
 
   return (
- <div className="App">
-  <ChatClient/>
- </div>
+    <div className="App"> 
+      <h1>Chat-io</h1>     
+      <ChatClient />
+    </div>
   )
 }
 
